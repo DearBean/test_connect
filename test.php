@@ -20,7 +20,7 @@ function replyToUser($reToken,$message,$ac_token){
 	curl_close($ch);
 	//echo $result . "\r\n";
 }
-
+/*
 
 function requestForProfile($ac_token,$userID){
 	
@@ -37,7 +37,7 @@ function requestForProfile($ac_token,$userID){
 	curl_close($ch);
 }
 
-
+*/
 $access_token = 'kjFApu9NrI3EaPZnNGjc87fHL/JPsSyFr0kY1Detwn69x8DtLM1kV241eOtcCJIgNWBRGLeRH+AI3U393nRDc8MDaGu6TmaAVoYpZOdZ3jYs+obFkCu3zMNQ/sQkaZknOxEEH+me7jEMaKQwQ+vBzwdB04t89/1O/w1cDnyilFU=';
 
 // Get POST body content
@@ -55,7 +55,7 @@ if (!is_null($events['events'])) {
 			// Get replyToken
 			$replyToken = $event['replyToken'];
 			
-			// Get userID and userName
+	/*		// Get userID and userName
 			$source = $event['source'];
 			$userID = $source['userid'];
 			
@@ -68,7 +68,7 @@ if (!is_null($events['events'])) {
 			$ = file_get_contents('php://input');
 			// Parse JSON
 			$events = json_decode($content, true);
-			
+		*/	
 			
 			
 			
